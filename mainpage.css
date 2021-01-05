@@ -1,0 +1,345 @@
+*{box-sizing: border-box;}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 100vw;
+    height: auto;
+    background: whitesmoke;
+}
+
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap; 
+    max-width: 100vw;  
+}
+
+#navbar1 {
+    padding: 0em;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row nowrap;
+    max-width: 100vw;
+}
+
+.navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active {
+    outline: none; 
+    box-shadow: none;  
+}
+
+.navbar-toggler:active {
+    background: rgb(48, 52, 54);
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    margin-top: 0.9em;
+    font-size: 0.8em;
+}
+
+.dropdown-item:active {
+    background: rgb(77, 86, 88);
+}
+
+.catalog-container {
+    width: 30vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    max-width: 100vw;
+    height: auto;
+}
+
+.bg1 {
+    display: flex;
+    max-width: 100vw; 
+    height: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;  
+    height: auto;
+    background: rgb(48, 52, 54);
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-between;
+    padding: 2em 2em 0em 2em;
+}
+.fa-search{
+    content: "\f002";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 2em;
+
+}
+
+.fa-user {
+    content: "\f007";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 2em;
+}
+
+.fa-heart {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 2em;
+}
+
+.fa-shopping-basket {
+    content: "\f291";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 0.5em;
+}
+
+.fa-mobile-alt {
+    content: "\f3cd";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-right: 0.8em;
+}
+
+.fa-copyright {
+    content: "f1f9";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 1.5em;
+}
+
+.fa-chevron-circle-up {
+    content: "\ff139";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 4em;
+    padding: 0em 0.5em;  
+}
+
+.fa-instagram {
+    content: "\f16d";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.5em;
+    padding-top: 0.8em;
+}
+
+.fa-facebook-f {
+    content: "\f39e";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.5em;
+    padding-top: 0.8em;
+}
+
+.fa-telegram-plane {
+    content: "\f3fe";
+    font-family: "Font Awesome 5 Free";
+    text-shadow: 1px 1px grey;
+    font-weight: 900;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.8em;
+    padding-top: 0.65em; 
+}
+
+i:hover, i:active {
+    color: lightgrey;
+}
+
+.mobile-number {
+	display: flex;
+	flex-direction: row nowrap;
+	align-items: baseline;
+}
+
+.fa-mobile-alt:hover, .fa-mobile-alt:active {
+    color: whitesmoke;
+}
+
+.fa-copyright:hover, .fa-copyright:active {
+    color: grey;
+}
+
+.text-style1 {
+	font-size: 2em;
+	font-style: italic;
+    color: whitesmoke;
+    text-shadow: 1px 1px grey;
+    align-self: center;
+    padding-left: 1.5em;
+    padding-right: 0.5em;
+}
+
+.text-style1:hover, .text-style1:active {
+    color: rgb(231, 76, 76);
+	text-shadow: 1px 1px rgb(85, 14, 14);
+	text-decoration: none;
+}
+
+.text-style2 {
+    color: black;
+    font-weight: bold;
+}
+
+.text-style3 {
+    color: whitesmoke;
+}
+
+.text-style3:hover, .text-style3:active {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+
+.scrollup {
+    align-self: flex-end;
+}
+
+.social_media {
+    display: flex;  
+    flex-direction: column;  
+}
+
+.social_media_icons {
+    display: flex;
+    flex-flow: row nowrap;  
+    justify-content: space-between;  
+}
+
+.copyright {
+    align-self: flex-start;
+    padding-left: 2.2em;
+    font-size: 0.9em;
+    color: grey;
+}
+
+.git_account {
+    color: grey;
+}
+
+.git_account:active, .git_account:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+@media (max-width: 1200px) and (min-width: 300px) {
+	
+
+   .footer-block {
+	   flex-direction: column-reverse;
+	   align-content: space-between;
+	   font-size: 1.2em;
+	}
+
+	.social_media_icons {
+		justify-content: center;
+	}
+
+	.fa-telegram-plane, .fa-facebook-f, .fa-instagram {
+		padding: 0.2em 0.6em;
+	}
+
+	.fa-search, .fa-heart, .fa-shopping-basket, .fa-user {
+		font-size: 1.3em;
+	} 
+
+	.mobile-number {
+		align-self: flex-start;
+    }
+
+    .navbar {
+        display: flex;
+        flex-flow: column;  
+    }
+
+    .dropdown-menu {
+        width: 100vw;
+        border-radius: 0;
+        margin-top: 0.5em;
+        font-size: 0.8em;
+    }
+    
+    .fa-shopping-basket, .fa-heart, .fa-user, .fa-search {
+        padding-top: 1.2em;
+        padding-bottom: 0.5em;
+    }
+
+    .catalog-container {
+        width: 100vw;
+    }
+
+    .text-style1 {
+       padding-left: 1em;
+       padding-right: 0.8em; 
+    }
+}
