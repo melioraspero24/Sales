@@ -96,7 +96,7 @@ main {
 .banner {
     display: flex;
     flex-flow: column nowrap;
-    max-width: 34vw;
+    width: 34vw;
     height: auto;
 }
 
@@ -116,6 +116,7 @@ footer {
     justify-content: space-between;  
     height: auto;
     background: rgb(48, 52, 54);
+    font-size: 1.3em;
 }
 
 .footer-block {
@@ -301,6 +302,10 @@ i:hover, i:active {
 	   font-size: 1.2em;
 	}
 
+    footer {
+       height: 70vw;
+    }
+
 	.social_media_icons {
 		justify-content: center;
 	}
@@ -342,6 +347,27 @@ i:hover, i:active {
         width: 100vw;
     }
 
+    main {
+        flex-direction: column;
+    }
+    
+    .bg3 {
+        max-width: 100vw;
+    }
+    .banner {
+        flex-flow: row nowrap;
+        max-width: 100vw;
+        height: auto;
+    }
+
+    .sale4 {
+        min-width: 50vw;
+    }
+
+    .new_c {
+        min-width: 50vw;
+    }
+
 }
 
 @media (max-width: 899px) and (min-width: 768px) {
@@ -354,16 +380,25 @@ i:hover, i:active {
    .footer-block {
 	   flex-direction: column-reverse;
 	   align-content: space-between;
-	   font-size: 1.2em;
+	   font-size: 1.1em;
 	}
+
+    footer {
+        height: 65vh;
+    }
 
 	.social_media_icons {
 		justify-content: center;
+        font-size: 1.3em;
 	}
 
 	.fa-telegram-plane, .fa-facebook-f, .fa-instagram {
 		margin: 0.2em 0.6em;
 	}
+
+    .fa-chevron-circle-up {
+        font-size: 3em;
+    }
 
     .navbar {
         display: flex;
@@ -433,15 +468,20 @@ i:hover, i:active {
    .footer-block {
 	   flex-direction: column-reverse;
 	   align-content: space-between;
-	   font-size: 1.2em;
+	   font-size: 1.4em;
 	}
+
+    footer {
+        height: 55vh;
+    }
 
 	.social_media_icons {
 		justify-content: center;
+        font-size: 1.3em;
 	}
 
 	.fa-telegram-plane, .fa-facebook-f, .fa-instagram {
-		margin: 0.2em 0.6em;
+		margin: 0.2em 0.4em;
 	}
 
 	.fa-search, .fa-heart, .fa-shopping-basket, .fa-user {
@@ -514,15 +554,20 @@ i:hover, i:active {
        .footer-block {
            flex-direction: column-reverse;
            align-content: space-between;
-           font-size: 1.2em;
+           font-size: 1.1em;
+        }
+
+        footer {
+            height: 60vh;
         }
     
         .social_media_icons {
             justify-content: center;
+            font-size: 1.4em;
         }
     
         .fa-telegram-plane, .fa-facebook-f, .fa-instagram {
-            margin: 0.2em 0.6em;
+            margin: 0.2em 0.4em;
         }
     
         .fa-search, .fa-heart, .fa-shopping-basket, .fa-user {
