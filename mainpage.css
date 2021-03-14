@@ -96,7 +96,7 @@ main {
 .banner {
     display: flex;
     flex-flow: column nowrap;
-    width: 34vw;
+    max-width: 34vw;
     height: auto;
 }
 
@@ -311,7 +311,7 @@ i:hover, i:active {
 	}
 
 	.fa-telegram-plane, .fa-facebook-f, .fa-instagram {
-		margin: 0.2em 0.6em;
+		margin: 0.2em 0.4em;
 	}
 
     .navbar {
@@ -393,7 +393,7 @@ i:hover, i:active {
 	}
 
 	.fa-telegram-plane, .fa-facebook-f, .fa-instagram {
-		margin: 0.2em 0.6em;
+		margin: 0.2em 0.4em;
 	}
 
     .fa-chevron-circle-up {
