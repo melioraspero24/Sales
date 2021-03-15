@@ -83,20 +83,20 @@ main {
     justify-content: center;
     max-width: 100vw;
     height: auto;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .bg3 {
     display: flex;
-    max-width: 64.7vw; 
+    max-width: 65%; 
     height: auto;
 }
 
 .banner {
     display: flex;
     flex-flow: column nowrap;
-    max-width: 34vw;
+    max-width: 35%;
     height: auto;
 }
 
@@ -303,7 +303,7 @@ i:hover, i:active {
 	}
 
     footer {
-       height: 70vw;
+       height: auto;
     }
 
 	.social_media_icons {
@@ -384,7 +384,7 @@ i:hover, i:active {
 	}
 
     footer {
-        height: 65vh;
+        min-height: 60vh;
     }
 
 	.social_media_icons {
@@ -472,7 +472,7 @@ i:hover, i:active {
 	}
 
     footer {
-        height: 55vh;
+        min-height: 55vh;
     }
 
 	.social_media_icons {
@@ -536,11 +536,11 @@ i:hover, i:active {
     }
 
     .sale4 {
-        max-width: 50vw;
+        max-width: 50%;
     }
 
     .new_c {
-        max-width: 50vw;
+        max-width: 50%;
     }
 
    
@@ -558,7 +558,7 @@ i:hover, i:active {
         }
 
         footer {
-            height: 60vh;
+            min-height: 55vh;
         }
     
         .social_media_icons {
@@ -624,4 +624,5 @@ i:hover, i:active {
 
         
 }
+
 
